@@ -1,0 +1,100 @@
+/* 4d0cb9 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url(../img/background-venezuela.jpg);
+    background-size:  cover; 
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* ----------------------TODO A LA IZQUIERDA------------------------------ */
+main .izquierda{
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+.logo1{
+    display: flex;
+}
+.logo-1{
+    display: inline-block;
+    width: 300px;
+    margin: auto auto 80px -20px;
+}
+
+
+.info-desktop{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin-left: -20px;
+    color: yellow;
+}
+
+.info-desktop ul li{
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+/* -----------------------TODO A LA DERECHA------------------------------ */
+
+.container-derecha{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    border-radius: 3px;
+    padding: 0 30px 10px 30px;
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+}
+
+.logo2{
+    display: none;
+}
+.iniciar-sesion{
+    display: flex;
+    color: #4200ac;
+    font-size: 17px;
+    text-align: center;
+    margin: 25px;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* -----------------------footer---------------------------- */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 80%;
+}

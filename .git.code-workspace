@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../dineroRapidoV2/.git"
+		},
+		{
+			"path": "../dineroRapidoV2"
+		},
+		{
+			"path": "../curso-frontend-developer-practico-conJs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dineroRapidoV2"
+	}
+}

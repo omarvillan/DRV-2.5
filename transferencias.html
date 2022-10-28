@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/4-transferencias.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    
+    <title>Transferencias</title>
+</head>
+<body>
+    <header class="header">
+        <img class="icon-menu-mobile" src="img/icono-menu-mobile.png" alt="">
+        <img class="logo2"  src="./img/logo-dinerorapidovenezuela-21.png" alt="logo">
+        <img class="logo"  src="./img/logo-completo-white.png" alt="logo">
+        <div class="header-left">
+            <div class="usuario">
+                <p>Marcela Gamboa</p>
+                <p>$ 650.000</p>
+            </div>
+            <a class="icon-exit" href="./index.html"></a>
+        </div>
+    </header>
+
+    <nav class="nav-container">
+        <ul>
+            <li>
+                <a class="icon-home item-nav" href="./home.html"><span class="item-nav">Home</span></a>
+            </li>
+            <li>
+                <a class="icon-pencil item-nav" href="./index.html"><span class="item-nav">Nueva transferencia<span></a>
+            </li>
+            <li>
+                <a class="icon-loop item-nav" href="./transferencias.html"><span class="item-nav">Transferencias<span></a>
+            </li>
+            <li>
+                <a class="icon-paste item-nav" href=""><span class="item-nav">Solicitudes<span></a>
+            </li>
+            <li>
+                <a class="icon-users item-nav" href=""><span class="item-nav">Usuarios<span></a>
+            </li>
+            <li>
+                <a class="icon-stats-dots item-nav" href=""><span class="item-nav">Reporte diario<span></a>
+            </li>
+            <li>
+                <a class="icon-library item-nav" href=""><span class="item-nav">Movimientos<span></a>
+            </li>
+            <li>
+                <a class="icon-history item-nav" href=""><span class="item-nav">Registros<span></a>
+            </li>
+            <li>
+                <a class="icon-cog item-nav" href=""><span class="item-nav">Configuraciones<span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+       <div class="container">
+            <div class="div-del-titulo">
+                <span class="pagina-titulo">Transferencias</span>
+                <div>
+                    <span>Cambiar vista</span>
+                    <button class="icon-loop2"></button>
+                </div>
+            </div>
+            <div class="filters">
+                <button class="filtrobutton">Filtro</button>
+                <div class="verdaderoFiltro">
+                    <input type="date">
+                    <select name="select-bancos" id="select-bancos">
+                        <!-- <option value selected disabled>Banco</option> -->
+                        <option value="Todos" selected>Todos</option>
+
+    <!----------------- insertar con JS----------------------------------------------------------------- -->
+                        <option value="Banesco" selected>Banesco</option>
+                        <option value="Bancaribe" selected>Bancaribe</option>
+                        <option value="Banplus" selected>Banplus</option>
+                        <option value="Bnc" selected>Bnc</option>
+                        <option value="Bod" selected>Bod</option>
+                        <option value="Mercantil" selected>Mercantil</option>
+                        <option value="Provincial" selected>Provincial</option>
+                        <option value="Sofitasa" selected>Sofitasa</option>
+                        <option value="Venezuela" selected>Venezuela</option>
+                        <option value="Otro" selected>Otro</option>
+                        <option value selected disabled>Banco</option>
+    <!------------------------------------------------------------------------------------------------------>
+                    
+                    </select>
+                    <input type="text" placeholder="Distribuidor">
+                    <input type="text" placeholder="Monto">
+                </div>
+                <div>
+                    <button class="icon-search"></button>
+                    <button class="icon-spinner11"></button>
+                </div>
+                
+            </div>
+
+
+
+
+            <div class="transfer-container">
+
+                <div class="transferencias">
+
+
+                    <span>ID</span>
+
+                    <span>Fecha</span>
+
+
+                    <div class="nombreDistri">
+                        <span>Titular</span>
+                        <span class="cedula">Documento</span>
+                    </div>
+
+                    <div class="bancoDistri">
+                        <span>Banco</span>
+                        <span class="nCuenta">N° de cuenta</span>
+                    </div>
+
+        
+                    <div class="divBolivares">
+                        <span class="vacio"></span>
+                        <span class="BolivaresTitulo">Bolivares</span>
+                    </div>
+
+                    <div class="divDistri">
+                        <span class="pesos">Pesos</span>
+                        <span class="distribuidora">Distribuidor</span>
+                    </div>
+
+                    <span class="detalleSpan">Detalle</span>
+                    
+
+
+                </div>
+
+
+
+
+            </div>
+            <div class="suma">
+
+            </div>
+            
+        
+        
+        
+        
+        
+        </div>
+
+    </section>
+
+
+
+
+
+    <div class="black-screen"></div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
