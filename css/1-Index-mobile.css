@@ -65,15 +65,18 @@ footer{
 }
 .logo2 img{
     width: 150px;
+    
 }
 
-
+.horario1{
+    display: none;
+}
 .horario1 p{
     color: white;
     font-weight: bold;
     font-size: 13px;
   margin-top: 90%;
-  display: none;
+  
 }
 
 
