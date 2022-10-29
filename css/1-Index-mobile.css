@@ -69,12 +69,20 @@ footer{
 
 .horario1{
     margin-bottom: 15px;
+    position: absolute;
+    bottom: 0;
 }
 .horario1 p{
     color: white;
     font-weight: bold;
     font-size: 13px;
+  
 }
+
+
+
+
+
 /* ---------------------------formulario----------------------------- */
 
 .form{
