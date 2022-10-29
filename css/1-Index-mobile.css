@@ -50,7 +50,7 @@ footer{
     padding: 0 30px 10px 30px;
     max-width: 350px;
     height: 350px;
-    margin: 150px 30px auto 30px;
+    margin: 150px 30px 0 30px;
 }
 
 
@@ -67,17 +67,12 @@ footer{
     width: 150px;
 }
 
-.horario1{
-    margin-bottom: 15px;
-    position: fixed;
-    bottom: 0;
 
-}
 .horario1 p{
     color: white;
     font-weight: bold;
     font-size: 13px;
-  
+  margin-top: 50%;
 }
 
 
