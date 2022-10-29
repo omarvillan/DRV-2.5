@@ -9,7 +9,7 @@
 body{
     height: 100vh;
     background: url(../img/background-mobile.jpg);
-    background-size: 100vw;
+    background-size: cover;
     
 }
 main{
@@ -50,9 +50,9 @@ footer{
     background-color:white;
     border-radius: 3px;
     padding: 0 30px 10px 30px;
-    width: 300px;
-    max-width: 300px;
-    height: 300px;
+    max-width: 350px;
+    height: 350px;
+    margin: 150px 30px auto 30px;
 }
 
 
@@ -62,8 +62,8 @@ footer{
     justify-content: center;
     width: 150px;
     width: 100%;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 .logo2 img{
     width: 150px;
@@ -117,7 +117,7 @@ form  div .lbl-nombre:after{
 .text-nomb{
     position: absolute;
     font-size: 13px;
-    font-weight:lighter;
+    font-weight: bold;
     bottom: 10px;
     left: 10px;
     transition: all 0.3s ease;
